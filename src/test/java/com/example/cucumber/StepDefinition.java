@@ -95,7 +95,7 @@ public class StepDefinition {
 
     @Then("Check quantity of categories on program page")
     public void check_quantity_of_categories_on_program_page() {
-        List<WebElement> categoryItems = driver.findElements(By.className("sc-a9073dc0-1"));
+        List<WebElement> categoryItems = driver.findElements(By.className("sc-55e53d53-0"));
         assertEquals(16, categoryItems.size(), "Number of categories is not correct");
     }
 
